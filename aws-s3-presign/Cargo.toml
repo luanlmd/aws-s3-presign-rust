@@ -1,0 +1,17 @@
+[package]
+name = "aws-s3-presign"
+version = "0.1.0"
+edition = "2021"
+authors = ["Luan Almeida <luanlmd@gmail.com>"]
+keywords = ["aws", "s3", "presign", "signature", "sig", "v4"]
+repository = "https://github.com/luanlmd/aws-s3-presign-rust"
+license = "Apache-2.0"
+description = "AWS S3 pre signinature"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.26"
+hmac = "0.12.1"
+sha2 = "0.10.7"
+url-search-params = "12.0.0"

@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "aws-s3-presign",
+    "aws-s3-presign-ffi"
+]
