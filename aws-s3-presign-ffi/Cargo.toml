@@ -1,9 +1,0 @@
-[package]
-name = "aws-s3-presign-ffi"
-version = "0.1.0"
-edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-aws-s3-presign = { path = "../aws-s3-presign" }
